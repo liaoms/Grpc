@@ -1,0 +1,22 @@
+syntax = "proto3";   
+package Algorithm;
+
+//请求
+message Request {
+    string name = 1;  
+
+}
+
+//响应
+message Response {
+	repeated string result = 1;
+}
+
+//服务
+service FileProcess {
+    
+	rpc Process(Request) returns (Response);
+	
+	rpc ListFeatures(Request) returns (stream Response);
+	
+}
