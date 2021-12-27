@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.19/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindOpenSSL.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/SelectLibraryConfigurations.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/WriteBasicConfigVersionFile.cmake
+F:/GRPC/grpcSource/grpc/.build/CMakeFiles/3.19.4/CMakeCCompiler.cmake
+F:/GRPC/grpcSource/grpc/.build/CMakeFiles/3.19.4/CMakeCXXCompiler.cmake
+F:/GRPC/grpcSource/grpc/.build/CMakeFiles/3.19.4/CMakeRCCompiler.cmake
+F:/GRPC/grpcSource/grpc/.build/CMakeFiles/3.19.4/CMakeSystem.cmake
+F:/GRPC/grpcSource/grpc/CMakeLists.txt
+F:/GRPC/grpcSource/grpc/cmake/abseil-cpp.cmake
+F:/GRPC/grpcSource/grpc/cmake/address_sorting.cmake
+F:/GRPC/grpcSource/grpc/cmake/benchmark.cmake
+F:/GRPC/grpcSource/grpc/cmake/cares.cmake
+F:/GRPC/grpcSource/grpc/cmake/gRPCConfig.cmake.in
+F:/GRPC/grpcSource/grpc/cmake/msvc_static_runtime.cmake
+F:/GRPC/grpcSource/grpc/cmake/pkg-config-template.pc.in
+F:/GRPC/grpcSource/grpc/cmake/protobuf.cmake
+F:/GRPC/grpcSource/grpc/cmake/re2.cmake
+F:/GRPC/grpcSource/grpc/cmake/ssl.cmake
+F:/GRPC/grpcSource/grpc/cmake/upb.cmake
+F:/GRPC/grpcSource/grpc/cmake/zlib.cmake

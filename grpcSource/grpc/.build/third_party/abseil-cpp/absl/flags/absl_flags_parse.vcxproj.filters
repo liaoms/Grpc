@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\flags\parse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\flags\internal\parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\flags\parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\flags\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B9AED6E5-2788-3AC7-899E-27DE1C258987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4905D93-BBF8-3AB5-B2CB-6AC002CF2878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

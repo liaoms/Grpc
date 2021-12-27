@@ -1,0 +1,6 @@
+﻿  Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/boringssl-with-bazel/crypto/fipsmodule/CMakeLists.txt
+  bcm.c
+  fips_shared_support.c
+  is_fips.c
+  正在生成代码...
+  fipsmodule.vcxproj -> F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\fipsmodule\fipsmodule.dir\Release\fipsmodule.lib

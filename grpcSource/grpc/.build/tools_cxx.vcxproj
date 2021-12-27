@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92566945-56A3-3E80-B582-0DFC06A3E38E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>tools_cxx</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\.build\CMakeFiles\315666bfb7c3fbb2faa152d8d60b35d3\tools_cxx.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\.build\Debug\gen_hpack_tables.exe;F:\GRPC\grpcSource\grpc\.build\Debug\gen_legal_metadata_characters.exe;F:\GRPC\grpcSource\grpc\.build\Debug\gen_percent_encoding_tables.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\tools_cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\.build\Release\gen_hpack_tables.exe;F:\GRPC\grpcSource\grpc\.build\Release\gen_legal_metadata_characters.exe;F:\GRPC\grpcSource\grpc\.build\Release\gen_percent_encoding_tables.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\tools_cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\.build\MinSizeRel\gen_hpack_tables.exe;F:\GRPC\grpcSource\grpc\.build\MinSizeRel\gen_legal_metadata_characters.exe;F:\GRPC\grpcSource\grpc\.build\MinSizeRel\gen_percent_encoding_tables.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\tools_cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\.build\RelWithDebInfo\gen_hpack_tables.exe;F:\GRPC\grpcSource\grpc\.build\RelWithDebInfo\gen_legal_metadata_characters.exe;F:\GRPC\grpcSource\grpc\.build\RelWithDebInfo\gen_percent_encoding_tables.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\tools_cxx</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\GRPC\grpcSource\grpc\cmake\abseil-cpp.cmake;F:\GRPC\grpcSource\grpc\cmake\address_sorting.cmake;F:\GRPC\grpcSource\grpc\cmake\benchmark.cmake;F:\GRPC\grpcSource\grpc\cmake\cares.cmake;F:\GRPC\grpcSource\grpc\cmake\gRPCConfig.cmake.in;F:\GRPC\grpcSource\grpc\cmake\msvc_static_runtime.cmake;F:\GRPC\grpcSource\grpc\cmake\pkg-config-template.pc.in;F:\GRPC\grpcSource\grpc\cmake\protobuf.cmake;F:\GRPC\grpcSource\grpc\cmake\re2.cmake;F:\GRPC\grpcSource\grpc\cmake\ssl.cmake;F:\GRPC\grpcSource\grpc\cmake\upb.cmake;F:\GRPC\grpcSource\grpc\cmake\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\GRPC\grpcSource\grpc\cmake\abseil-cpp.cmake;F:\GRPC\grpcSource\grpc\cmake\address_sorting.cmake;F:\GRPC\grpcSource\grpc\cmake\benchmark.cmake;F:\GRPC\grpcSource\grpc\cmake\cares.cmake;F:\GRPC\grpcSource\grpc\cmake\gRPCConfig.cmake.in;F:\GRPC\grpcSource\grpc\cmake\msvc_static_runtime.cmake;F:\GRPC\grpcSource\grpc\cmake\pkg-config-template.pc.in;F:\GRPC\grpcSource\grpc\cmake\protobuf.cmake;F:\GRPC\grpcSource\grpc\cmake\re2.cmake;F:\GRPC\grpcSource\grpc\cmake\ssl.cmake;F:\GRPC\grpcSource\grpc\cmake\upb.cmake;F:\GRPC\grpcSource\grpc\cmake\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\GRPC\grpcSource\grpc\cmake\abseil-cpp.cmake;F:\GRPC\grpcSource\grpc\cmake\address_sorting.cmake;F:\GRPC\grpcSource\grpc\cmake\benchmark.cmake;F:\GRPC\grpcSource\grpc\cmake\cares.cmake;F:\GRPC\grpcSource\grpc\cmake\gRPCConfig.cmake.in;F:\GRPC\grpcSource\grpc\cmake\msvc_static_runtime.cmake;F:\GRPC\grpcSource\grpc\cmake\pkg-config-template.pc.in;F:\GRPC\grpcSource\grpc\cmake\protobuf.cmake;F:\GRPC\grpcSource\grpc\cmake\re2.cmake;F:\GRPC\grpcSource\grpc\cmake\ssl.cmake;F:\GRPC\grpcSource\grpc\cmake\upb.cmake;F:\GRPC\grpcSource\grpc\cmake\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\GRPC\grpcSource\grpc\cmake\abseil-cpp.cmake;F:\GRPC\grpcSource\grpc\cmake\address_sorting.cmake;F:\GRPC\grpcSource\grpc\cmake\benchmark.cmake;F:\GRPC\grpcSource\grpc\cmake\cares.cmake;F:\GRPC\grpcSource\grpc\cmake\gRPCConfig.cmake.in;F:\GRPC\grpcSource\grpc\cmake\msvc_static_runtime.cmake;F:\GRPC\grpcSource\grpc\cmake\pkg-config-template.pc.in;F:\GRPC\grpcSource\grpc\cmake\protobuf.cmake;F:\GRPC\grpcSource\grpc\cmake\re2.cmake;F:\GRPC\grpcSource\grpc\cmake\ssl.cmake;F:\GRPC\grpcSource\grpc\cmake\upb.cmake;F:\GRPC\grpcSource\grpc\cmake\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\GRPC\grpcSource\grpc\.build\CMakeFiles\tools_cxx">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\ZERO_CHECK.vcxproj">
+      <Project>{E646BDCF-5B47-3064-B787-D3146AF6B988}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\gen_hpack_tables.vcxproj">
+      <Project>{5FBE4D52-5BB1-3DD5-B826-3E48E8B709A3}</Project>
+      <Name>gen_hpack_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\gen_legal_metadata_characters.vcxproj">
+      <Project>{1A05944B-51B2-3024-A111-12F40BEE0938}</Project>
+      <Name>gen_legal_metadata_characters</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\gen_percent_encoding_tables.vcxproj">
+      <Project>{087D20C1-1DFA-35B6-A114-695237C386AC}</Project>
+      <Name>gen_percent_encoding_tables</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_bitstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_bool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_d2i_fp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_dup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_enum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_gentm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_i2d_fp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_mbstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_object.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_octet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_strnid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_type.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_utctm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_utf8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\asn1_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\asn1_par.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\asn_pack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\f_enum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\f_int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\f_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_fre.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_new.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_typ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_utl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\time_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\base64\base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\bio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\bio_mem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\connect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\fd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\hexdump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\pair.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\printf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\socket.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\socket_helper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\blake2\blake2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bn_extra\bn_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bn_extra\convert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\buf\buf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\asn1_compat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\ber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\cbb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\cbs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\unicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\chacha\chacha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\cipher_extra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\derive_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_aesccm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_aesctrhmac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_aesgcmsiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_chacha20poly1305.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_null.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_rc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_rc4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_tls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\tls_cbc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cmac\cmac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\conf\conf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-aarch64-fuchsia.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-aarch64-linux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-aarch64-win.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-arm-linux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-arm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-intel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-ppc64le.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\crypto.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\curve25519\curve25519.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\curve25519\spake25519.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\dh_extra\params.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\dh_extra\dh_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\digest_extra\digest_extra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\dsa\dsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\dsa\dsa_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ecdh_extra\ecdh_extra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ecdsa_extra\ecdsa_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ec_extra\ec_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ec_extra\ec_derive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ec_extra\hash_to_curve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\err.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\err_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\engine\engine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\digestsign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\evp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\evp_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\evp_ctx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_dsa_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_ec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_ec_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_ed25519.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_ed25519_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_rsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_rsa_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_x25519.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_x25519_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\pbkdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\scrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ex_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\hkdf\hkdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\hpke\hpke.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\hrss\hrss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\lhash\lhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\mem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\obj\obj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\obj\obj_xref.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_all.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_oth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_pk8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_pkey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_x509.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_xaux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs7\pkcs7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs7\pkcs7_x509.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs8\pkcs8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs8\pkcs8_x509.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs8\p5_pbev2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\poly1305\poly1305.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\poly1305\poly1305_arm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\poly1305\poly1305_vec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pool\pool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\deterministic.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\forkunsafe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\fuchsia.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\passive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\rand_extra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\windows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rc4\rc4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\refcount_c11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\refcount_lock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rsa_extra\rsa_asn1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rsa_extra\rsa_print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\stack\stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\siphash\siphash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\thread_none.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\thread_pthread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\thread_win.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\trust_token\pmbtoken.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\trust_token\trust_token.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\trust_token\voprf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\a_digest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\a_sign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\a_strex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\a_verify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\algorithm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\asn1_gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\by_dir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\by_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\i2d_pr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\rsa_pss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\t_crl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\t_req.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\t_x509.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\t_x509a.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_att.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_cmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_d2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_def.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_ext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_lu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_obj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_req.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_set.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_trs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_txt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_v3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_vfy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_vpm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509cset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509name.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509rset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509spki.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_algor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_all.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_attrib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_crl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_exten.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_name.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_pkey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_pubkey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_req.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_sig.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_spki.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_val.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_x509.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_x509a.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_cache.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_node.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_akey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_akeya.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_alt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_bcons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_bitst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_conf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_cpols.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_crld.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_enum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_extku.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_genn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_ia5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_ncons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_ocsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_pci.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_pcia.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_pcons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_pmaps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_prn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_purp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_skey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_utl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\.build\CMakeFiles\c3ca2e78a8148d34611c9ea7ccfdbaab\err_data.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\bcm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\fips_shared_support.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\is_fips.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4CDEB228-71F8-3407-B7F4-3167D01318B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{775DA395-8EAF-3538-926F-ADFA335AE69D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4905D93-BBF8-3AB5-B2CB-6AC002CF2878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

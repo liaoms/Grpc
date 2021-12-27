@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+F:/GRPC/grpcSource/grpc/.build/third_party/cares/cares/src/lib/Makefile.inc.cmake
+F:/GRPC/grpcSource/grpc/third_party/cares/cares/src/lib/CMakeLists.txt
+F:/GRPC/grpcSource/grpc/third_party/cares/cares/src/lib/ares_config.h.cmake

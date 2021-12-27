@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\re2\re2\testing\dfa_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\re2\util\test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\re2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4905D93-BBF8-3AB5-B2CB-6AC002CF2878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

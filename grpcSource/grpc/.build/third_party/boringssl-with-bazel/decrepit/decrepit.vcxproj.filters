@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\bio\base64_bio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\blowfish\blowfish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\cast\cast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\cast\cast_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\cfb\cfb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\des\cfb64ede.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\dh\dh_decrepit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\dsa\dsa_decrepit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\evp\dss1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\evp\evp_do_all.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\obj\obj_decrepit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\rc4\rc4_decrepit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\ripemd\ripemd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\rsa\rsa_decrepit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\ssl\ssl_decrepit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\x509\x509_decrepit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\xts\xts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\decrepit\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4905D93-BBF8-3AB5-B2CB-6AC002CF2878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

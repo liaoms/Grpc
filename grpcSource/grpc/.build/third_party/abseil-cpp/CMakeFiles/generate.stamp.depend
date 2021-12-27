@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CTest.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CTestUseLaunchers.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindThreads.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/GNUInstallDirs.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/WriteBasicConfigVersionFile.cmake
+F:/GRPC/grpcSource/grpc/third_party/abseil-cpp/CMake/AbseilDll.cmake
+F:/GRPC/grpcSource/grpc/third_party/abseil-cpp/CMake/AbseilHelpers.cmake
+F:/GRPC/grpcSource/grpc/third_party/abseil-cpp/CMake/AbseilInstallDirs.cmake
+F:/GRPC/grpcSource/grpc/third_party/abseil-cpp/CMakeLists.txt
+F:/GRPC/grpcSource/grpc/third_party/abseil-cpp/absl/copts/AbseilConfigureCopts.cmake
+F:/GRPC/grpcSource/grpc/third_party/abseil-cpp/absl/copts/GENERATED_AbseilCopts.cmake

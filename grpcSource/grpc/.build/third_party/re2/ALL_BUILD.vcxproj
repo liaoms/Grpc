@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EF78F785-E436-30BE-8070-382E39B82AF3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\re2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/re2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/third_party/re2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\re2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/re2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/third_party/re2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\re2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/re2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/third_party/re2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\re2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/re2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/third_party/re2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\re2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\ZERO_CHECK.vcxproj">
+      <Project>{E646BDCF-5B47-3064-B787-D3146AF6B988}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\charclass_test.vcxproj">
+      <Project>{B3A21AC4-061E-39B9-BCAF-085DA6C63B56}</Project>
+      <Name>charclass_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\compile_test.vcxproj">
+      <Project>{6900D0DA-F15A-3958-8BF8-FCE611F90E08}</Project>
+      <Name>compile_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\dfa_test.vcxproj">
+      <Project>{A9F0865B-BFF9-35A5-B1ED-20DCC500A9D3}</Project>
+      <Name>dfa_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\exhaustive1_test.vcxproj">
+      <Project>{8DDE1E32-DB9C-3313-9CD9-EDA6E4B03604}</Project>
+      <Name>exhaustive1_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\exhaustive2_test.vcxproj">
+      <Project>{A476DEDB-2FF7-3BE8-A61E-B293CE253F5F}</Project>
+      <Name>exhaustive2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\exhaustive3_test.vcxproj">
+      <Project>{C37026E6-E917-3D38-8920-96C5141146D7}</Project>
+      <Name>exhaustive3_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\exhaustive_test.vcxproj">
+      <Project>{07FF9318-FBF4-39D1-A4BD-B65629B23049}</Project>
+      <Name>exhaustive_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\filtered_re2_test.vcxproj">
+      <Project>{15614881-95BE-35B1-A66C-96ED750A0029}</Project>
+      <Name>filtered_re2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\mimics_pcre_test.vcxproj">
+      <Project>{1BC2B0EF-FB9E-3DA4-8DE7-F8C83850D65E}</Project>
+      <Name>mimics_pcre_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\parse_test.vcxproj">
+      <Project>{E9D5463B-0B35-3DB1-B068-FAAB7320AF95}</Project>
+      <Name>parse_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\possible_match_test.vcxproj">
+      <Project>{A7E265C8-1FB1-3B4A-8E00-EF208FDDFA20}</Project>
+      <Name>possible_match_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\random_test.vcxproj">
+      <Project>{F4F274A4-6CE2-30D0-846F-E9611B38BC6A}</Project>
+      <Name>random_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\re2.vcxproj">
+      <Project>{8C81348D-ED06-37AC-A3CB-87FA75B641E2}</Project>
+      <Name>re2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\re2_arg_test.vcxproj">
+      <Project>{016AF476-9F3F-3CD5-A77D-03B25384D5EE}</Project>
+      <Name>re2_arg_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\re2_test.vcxproj">
+      <Project>{92C82755-743D-341B-B4AB-37B6C9987037}</Project>
+      <Name>re2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\regexp_benchmark.vcxproj">
+      <Project>{9285006D-C121-36FF-A67C-3B3EF4B87389}</Project>
+      <Name>regexp_benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\regexp_test.vcxproj">
+      <Project>{9EBD8B5F-7FDC-3145-B137-A0CAD057199F}</Project>
+      <Name>regexp_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\required_prefix_test.vcxproj">
+      <Project>{E306ADF6-FA0A-3E77-BA37-FBB9021CEA50}</Project>
+      <Name>required_prefix_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\search_test.vcxproj">
+      <Project>{C52B85B6-B64F-364A-A22B-DED7237AF0E1}</Project>
+      <Name>search_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\set_test.vcxproj">
+      <Project>{63235AF9-FACF-325D-B012-EDCB15C9AFD9}</Project>
+      <Name>set_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\simplify_test.vcxproj">
+      <Project>{A7196E90-C987-3F78-AB57-04B4C0869C87}</Project>
+      <Name>simplify_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\string_generator_test.vcxproj">
+      <Project>{A3C9FAB9-F64C-326C-915F-DC68F347F4D8}</Project>
+      <Name>string_generator_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\testing.vcxproj">
+      <Project>{754F267F-48FB-30F2-AF85-7DE5FDB6F0E9}</Project>
+      <Name>testing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

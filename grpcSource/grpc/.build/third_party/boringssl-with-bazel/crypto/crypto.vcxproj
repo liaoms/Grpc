@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D21CFF53-3492-364B-8A88-77629D1DD89A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>crypto</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">crypto.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">crypto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">crypto.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">crypto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">crypto.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">crypto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">crypto.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">crypto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -utf-8 -w44265</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4061;4100;4127;4200;4204;4221;4242;4244;4267;4371;4388;4296;4350;4365;4389;4464;4510;4512;4514;4548;4610;4623;4625;4626;4628;4668;4706;4710;4711;4800;4820;5026;5027;5045</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;BORINGSSL_IMPLEMENTATION;OPENSSL_NO_ASM;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;BORINGSSL_IMPLEMENTATION;OPENSSL_NO_ASM;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -utf-8 -w44265</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4061;4100;4127;4200;4204;4221;4242;4244;4267;4371;4388;4296;4350;4365;4389;4464;4510;4512;4514;4548;4610;4623;4625;4626;4628;4668;4706;4710;4711;4800;4820;5026;5027;5045</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;BORINGSSL_IMPLEMENTATION;OPENSSL_NO_ASM;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;BORINGSSL_IMPLEMENTATION;OPENSSL_NO_ASM;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -utf-8 -w44265</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4061;4100;4127;4200;4204;4221;4242;4244;4267;4371;4388;4296;4350;4365;4389;4464;4510;4512;4514;4548;4610;4623;4625;4626;4628;4668;4706;4710;4711;4800;4820;5026;5027;5045</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;BORINGSSL_IMPLEMENTATION;OPENSSL_NO_ASM;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;BORINGSSL_IMPLEMENTATION;OPENSSL_NO_ASM;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -utf-8 -w44265</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4061;4100;4127;4200;4204;4221;4242;4244;4267;4371;4388;4296;4350;4365;4389;4464;4510;4512;4514;4548;4610;4623;4625;4626;4628;4668;4706;4710;4711;4800;4820;5026;5027;5045</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;BORINGSSL_IMPLEMENTATION;OPENSSL_NO_ASM;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;BORINGSSL_DISPATCH_TEST;_HAS_EXCEPTIONS=0;WIN32_LEAN_AND_MEAN;NOMINMAX;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;BORINGSSL_IMPLEMENTATION;OPENSSL_NO_ASM;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\third_party\googletest\include;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\.build\CMakeFiles\c3ca2e78a8148d34611c9ea7ccfdbaab\err_data.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating err_data.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Go\bin\go.exe run err_data_generate.go &gt; F:/GRPC/grpcSource/grpc/.build/third_party/boringssl-with-bazel/crypto/err_data.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\err_data_generate.go;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\asn1.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\bio.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\bn.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\cipher.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\conf.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\dh.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\digest.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\dsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ecdh.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ecdsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ec.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\engine.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\evp.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\hkdf.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\obj.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pem.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pkcs7.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pkcs8.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\rsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ssl.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\trust_token.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\x509.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\x509v3.errordata;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\err_data.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating err_data.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Go\bin\go.exe run err_data_generate.go &gt; F:/GRPC/grpcSource/grpc/.build/third_party/boringssl-with-bazel/crypto/err_data.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\err_data_generate.go;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\asn1.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\bio.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\bn.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\cipher.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\conf.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\dh.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\digest.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\dsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ecdh.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ecdsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ec.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\engine.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\evp.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\hkdf.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\obj.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pem.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pkcs7.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pkcs8.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\rsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ssl.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\trust_token.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\x509.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\x509v3.errordata;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\err_data.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating err_data.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Go\bin\go.exe run err_data_generate.go &gt; F:/GRPC/grpcSource/grpc/.build/third_party/boringssl-with-bazel/crypto/err_data.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\err_data_generate.go;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\asn1.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\bio.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\bn.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\cipher.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\conf.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\dh.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\digest.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\dsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ecdh.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ecdsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ec.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\engine.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\evp.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\hkdf.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\obj.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pem.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pkcs7.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pkcs8.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\rsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ssl.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\trust_token.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\x509.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\x509v3.errordata;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\err_data.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating err_data.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Go\bin\go.exe run err_data_generate.go &gt; F:/GRPC/grpcSource/grpc/.build/third_party/boringssl-with-bazel/crypto/err_data.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\err_data_generate.go;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\asn1.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\bio.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\bn.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\cipher.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\conf.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\dh.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\digest.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\dsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ecdh.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ecdsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ec.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\engine.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\evp.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\hkdf.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\obj.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pem.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pkcs7.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\pkcs8.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\rsa.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\ssl.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\trust_token.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\x509.errordata;F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\x509v3.errordata;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\err_data.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/boringssl-with-bazel/crypto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/third_party/boringssl-with-bazel/crypto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/boringssl-with-bazel/crypto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/third_party/boringssl-with-bazel/crypto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/boringssl-with-bazel/crypto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/third_party/boringssl-with-bazel/crypto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/boringssl-with-bazel/crypto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/third_party/boringssl-with-bazel/crypto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_bitstr.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_bool.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_d2i_fp.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_dup.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_enum.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_gentm.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_i2d_fp.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_int.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_mbstr.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_object.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_octet.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_print.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_strnid.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_time.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_type.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_utctm.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\a_utf8.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\asn1_lib.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\asn1_par.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\asn_pack.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\f_enum.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\f_int.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\f_string.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_dec.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_enc.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_fre.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_new.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_typ.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\tasn_utl.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\asn1\time_support.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\base64\base64.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\bio.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\bio_mem.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\connect.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\fd.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\file.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\hexdump.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\pair.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\printf.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\socket.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bio\socket_helper.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\blake2\blake2.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bn_extra\bn_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bn_extra\convert.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\buf\buf.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\asn1_compat.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\ber.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\cbb.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\cbs.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\bytestring\unicode.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\chacha\chacha.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\cipher_extra.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\derive_key.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_aesccm.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_aesctrhmac.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_aesgcmsiv.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_chacha20poly1305.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_null.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_rc2.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_rc4.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\e_tls.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cipher_extra\tls_cbc.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cmac\cmac.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\conf\conf.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-aarch64-fuchsia.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-aarch64-linux.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-aarch64-win.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-arm-linux.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-arm.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-intel.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\cpu-ppc64le.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\crypto.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\curve25519\curve25519.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\curve25519\spake25519.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\dh_extra\params.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\dh_extra\dh_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\digest_extra\digest_extra.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\dsa\dsa.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\dsa\dsa_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ecdh_extra\ecdh_extra.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ecdsa_extra\ecdsa_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ec_extra\ec_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ec_extra\ec_derive.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ec_extra\hash_to_curve.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\err\err.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\err_data.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\engine\engine.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\digestsign.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\evp.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\evp_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\evp_ctx.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_dsa_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_ec.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_ec_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_ed25519.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_ed25519_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_rsa.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_rsa_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_x25519.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\p_x25519_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\pbkdf.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\print.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\scrypt.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\evp\sign.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\ex_data.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\hkdf\hkdf.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\hpke\hpke.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\hrss\hrss.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\lhash\lhash.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\mem.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\obj\obj.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\obj\obj_xref.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_all.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_info.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_lib.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_oth.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_pk8.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_pkey.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_x509.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pem\pem_xaux.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs7\pkcs7.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs7\pkcs7_x509.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs8\pkcs8.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs8\pkcs8_x509.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pkcs8\p5_pbev2.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\poly1305\poly1305.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\poly1305\poly1305_arm.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\poly1305\poly1305_vec.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\pool\pool.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\deterministic.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\forkunsafe.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\fuchsia.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\passive.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\rand_extra.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rand_extra\windows.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rc4\rc4.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\refcount_c11.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\refcount_lock.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rsa_extra\rsa_asn1.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\rsa_extra\rsa_print.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\stack\stack.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\siphash\siphash.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\thread.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\thread_none.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\thread_pthread.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\thread_win.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\trust_token\pmbtoken.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\trust_token\trust_token.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\trust_token\voprf.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\a_digest.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\a_sign.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\a_strex.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\a_verify.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\algorithm.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\asn1_gen.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\by_dir.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\by_file.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\i2d_pr.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\rsa_pss.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\t_crl.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\t_req.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\t_x509.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\t_x509a.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_att.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_cmp.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_d2.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_def.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_ext.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_lu.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_obj.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_req.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_set.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_trs.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_txt.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_v3.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_vfy.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509_vpm.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509cset.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509name.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509rset.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x509spki.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_algor.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_all.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_attrib.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_crl.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_exten.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_info.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_name.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_pkey.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_pubkey.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_req.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_sig.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_spki.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_val.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_x509.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509\x_x509a.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_cache.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_data.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_lib.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_map.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_node.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\pcy_tree.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_akey.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_akeya.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_alt.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_bcons.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_bitst.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_conf.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_cpols.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_crld.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_enum.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_extku.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_genn.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_ia5.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_info.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_int.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_lib.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_ncons.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_ocsp.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_pci.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_pcia.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_pcons.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_pmaps.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_prn.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_purp.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_skey.c" />
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\crypto\x509v3\v3_utl.c" />
+    <Object Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\bcm.obj" />
+    <Object Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\fips_shared_support.obj" />
+    <Object Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\fipsmodule\fipsmodule.dir\$(Configuration)\is_fips.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\ZERO_CHECK.vcxproj">
+      <Project>{E646BDCF-5B47-3064-B787-D3146AF6B988}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\fipsmodule\fipsmodule.vcxproj">
+      <Project>{89F9A087-8A0E-3F61-BBD3-206AE009E37C}</Project>
+      <Name>fipsmodule</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\global_target.vcxproj">
+      <Project>{73F348CD-095E-35BA-919A-F0980C7AB347}</Project>
+      <Name>global_target</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

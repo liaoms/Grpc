@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.19/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CPack.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CPackComponent.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckFunctionExists.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFile.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFileCXX.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckIncludeFiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckLibraryExists.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckStructHasMember.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckSymbolExists.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckTypeSize.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/GNUInstallDirs.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/WriteBasicConfigVersionFile.cmake
+D:/Program Files/CMake/share/cmake-3.19/Templates/CPackConfig.cmake.in
+F:/GRPC/grpcSource/grpc/third_party/cares/cares/CMakeLists.txt
+F:/GRPC/grpcSource/grpc/third_party/cares/cares/c-ares-config.cmake.in
+F:/GRPC/grpcSource/grpc/third_party/cares/cares/libcares.pc.cmake

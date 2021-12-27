@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\args.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\ciphers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\const.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\digest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\fd.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\generate_ed25519.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\genrsa.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\pkcs12.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\rand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\sign.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\speed.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\tool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\transport_common.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\tool\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4905D93-BBF8-3AB5-B2CB-6AC002CF2878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

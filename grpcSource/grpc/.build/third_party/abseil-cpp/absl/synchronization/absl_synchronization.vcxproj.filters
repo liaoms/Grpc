@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\barrier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\blocking_counter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\internal\create_thread_identity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\internal\per_thread_sem.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\internal\waiter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\notification.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\mutex.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\barrier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\blocking_counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\internal\create_thread_identity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\internal\futex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\internal\per_thread_sem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\internal\waiter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\notification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\abseil-cpp\absl\synchronization\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B9AED6E5-2788-3AC7-899E-27DE1C258987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E4905D93-BBF8-3AB5-B2CB-6AC002CF2878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

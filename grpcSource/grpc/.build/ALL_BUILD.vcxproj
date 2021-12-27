@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EF78F785-E436-30BE-8070-382E39B82AF3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\GRPC\grpcSource\grpc\third_party\re2;F:\GRPC\grpcSource\grpc\third_party\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\GRPC\grpcSource\grpc\cmake\abseil-cpp.cmake;F:\GRPC\grpcSource\grpc\cmake\address_sorting.cmake;F:\GRPC\grpcSource\grpc\cmake\benchmark.cmake;F:\GRPC\grpcSource\grpc\cmake\cares.cmake;F:\GRPC\grpcSource\grpc\cmake\gRPCConfig.cmake.in;F:\GRPC\grpcSource\grpc\cmake\msvc_static_runtime.cmake;F:\GRPC\grpcSource\grpc\cmake\pkg-config-template.pc.in;F:\GRPC\grpcSource\grpc\cmake\protobuf.cmake;F:\GRPC\grpcSource\grpc\cmake\re2.cmake;F:\GRPC\grpcSource\grpc\cmake\ssl.cmake;F:\GRPC\grpcSource\grpc\cmake\upb.cmake;F:\GRPC\grpcSource\grpc\cmake\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\GRPC\grpcSource\grpc\cmake\abseil-cpp.cmake;F:\GRPC\grpcSource\grpc\cmake\address_sorting.cmake;F:\GRPC\grpcSource\grpc\cmake\benchmark.cmake;F:\GRPC\grpcSource\grpc\cmake\cares.cmake;F:\GRPC\grpcSource\grpc\cmake\gRPCConfig.cmake.in;F:\GRPC\grpcSource\grpc\cmake\msvc_static_runtime.cmake;F:\GRPC\grpcSource\grpc\cmake\pkg-config-template.pc.in;F:\GRPC\grpcSource\grpc\cmake\protobuf.cmake;F:\GRPC\grpcSource\grpc\cmake\re2.cmake;F:\GRPC\grpcSource\grpc\cmake\ssl.cmake;F:\GRPC\grpcSource\grpc\cmake\upb.cmake;F:\GRPC\grpcSource\grpc\cmake\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\GRPC\grpcSource\grpc\cmake\abseil-cpp.cmake;F:\GRPC\grpcSource\grpc\cmake\address_sorting.cmake;F:\GRPC\grpcSource\grpc\cmake\benchmark.cmake;F:\GRPC\grpcSource\grpc\cmake\cares.cmake;F:\GRPC\grpcSource\grpc\cmake\gRPCConfig.cmake.in;F:\GRPC\grpcSource\grpc\cmake\msvc_static_runtime.cmake;F:\GRPC\grpcSource\grpc\cmake\pkg-config-template.pc.in;F:\GRPC\grpcSource\grpc\cmake\protobuf.cmake;F:\GRPC\grpcSource\grpc\cmake\re2.cmake;F:\GRPC\grpcSource\grpc\cmake\ssl.cmake;F:\GRPC\grpcSource\grpc\cmake\upb.cmake;F:\GRPC\grpcSource\grpc\cmake\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/GRPC/grpcSource/grpc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/GRPC/grpcSource/grpc -BF:/GRPC/grpcSource/grpc/.build --check-stamp-file F:/GRPC/grpcSource/grpc/.build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;F:\GRPC\grpcSource\grpc\.build\CMakeFiles\3.19.4\CMakeSystem.cmake;F:\GRPC\grpcSource\grpc\cmake\abseil-cpp.cmake;F:\GRPC\grpcSource\grpc\cmake\address_sorting.cmake;F:\GRPC\grpcSource\grpc\cmake\benchmark.cmake;F:\GRPC\grpcSource\grpc\cmake\cares.cmake;F:\GRPC\grpcSource\grpc\cmake\gRPCConfig.cmake.in;F:\GRPC\grpcSource\grpc\cmake\msvc_static_runtime.cmake;F:\GRPC\grpcSource\grpc\cmake\pkg-config-template.pc.in;F:\GRPC\grpcSource\grpc\cmake\protobuf.cmake;F:\GRPC\grpcSource\grpc\cmake\re2.cmake;F:\GRPC\grpcSource\grpc\cmake\ssl.cmake;F:\GRPC\grpcSource\grpc\cmake\upb.cmake;F:\GRPC\grpcSource\grpc\cmake\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\GRPC\grpcSource\grpc\.build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\ZERO_CHECK.vcxproj">
+      <Project>{E646BDCF-5B47-3064-B787-D3146AF6B988}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\types\absl_bad_any_cast_impl.vcxproj">
+      <Project>{9A8BCA98-9C1D-3B68-B1EC-7028BEF9FBA9}</Project>
+      <Name>absl_bad_any_cast_impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\types\absl_bad_optional_access.vcxproj">
+      <Project>{22EB4920-5BDD-34A8-90EB-4FCBE8D409E2}</Project>
+      <Name>absl_bad_optional_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\types\absl_bad_variant_access.vcxproj">
+      <Project>{68FBFD3F-3632-3C2E-B06F-47EDA0C4D0B2}</Project>
+      <Name>absl_bad_variant_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_base.vcxproj">
+      <Project>{AA2FDCE7-5CB2-3CCF-9DB4-103549B79EEF}</Project>
+      <Name>absl_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\hash\absl_city.vcxproj">
+      <Project>{5975500F-5187-39A2-9756-5D6E406774E5}</Project>
+      <Name>absl_city</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\time\absl_civil_time.vcxproj">
+      <Project>{7BF95DA7-B464-38F6-AC40-9DB4080CC2DD}</Project>
+      <Name>absl_civil_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\strings\absl_cord.vcxproj">
+      <Project>{6B9D57EF-4AD7-34AA-8F20-B6B8D2353A08}</Project>
+      <Name>absl_cord</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\debugging\absl_debugging_internal.vcxproj">
+      <Project>{A4955DF3-8D35-38DA-AD54-0F7292996E55}</Project>
+      <Name>absl_debugging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\debugging\absl_demangle_internal.vcxproj">
+      <Project>{148A6431-89A2-36F4-A3E9-4F925848A667}</Project>
+      <Name>absl_demangle_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\debugging\absl_examine_stack.vcxproj">
+      <Project>{BE2E8736-6F19-3F46-A7C1-FDBE87F86BD2}</Project>
+      <Name>absl_examine_stack</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_exponential_biased.vcxproj">
+      <Project>{2785B97B-7342-3771-A602-39E13A56B39A}</Project>
+      <Name>absl_exponential_biased</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\debugging\absl_failure_signal_handler.vcxproj">
+      <Project>{0DE1FE45-DD31-32A6-BC45-F9CCF14E9549}</Project>
+      <Name>absl_failure_signal_handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags.vcxproj">
+      <Project>{E47D87A5-FE83-33CA-86FB-497C48BAB4BF}</Project>
+      <Name>absl_flags</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_commandlineflag.vcxproj">
+      <Project>{10310D70-0B2B-35EC-8BA1-429F35FCCCE0}</Project>
+      <Name>absl_flags_commandlineflag</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_commandlineflag_internal.vcxproj">
+      <Project>{FE6E5F1D-7558-3BC2-8BC3-E166F8516F43}</Project>
+      <Name>absl_flags_commandlineflag_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_config.vcxproj">
+      <Project>{8A351700-7204-3AEE-8E6A-224F780A0613}</Project>
+      <Name>absl_flags_config</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_internal.vcxproj">
+      <Project>{D2D4D679-A358-36B2-912F-3C13CBD05590}</Project>
+      <Name>absl_flags_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_marshalling.vcxproj">
+      <Project>{A7B5017A-F91B-3310-95CA-F7994CA3AFBE}</Project>
+      <Name>absl_flags_marshalling</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_parse.vcxproj">
+      <Project>{47D915B2-FA7A-35B3-8F19-D3FF3F933655}</Project>
+      <Name>absl_flags_parse</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_private_handle_accessor.vcxproj">
+      <Project>{C9602B82-4521-305A-909C-191300D37B5D}</Project>
+      <Name>absl_flags_private_handle_accessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_program_name.vcxproj">
+      <Project>{349530A2-A9FE-36B5-A1F1-85D780CF23BA}</Project>
+      <Name>absl_flags_program_name</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_reflection.vcxproj">
+      <Project>{D2FD34C3-45D2-3397-B89D-39543DE1F97C}</Project>
+      <Name>absl_flags_reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_usage.vcxproj">
+      <Project>{A8875C00-C6B0-390F-A749-8304735DF06C}</Project>
+      <Name>absl_flags_usage</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\flags\absl_flags_usage_internal.vcxproj">
+      <Project>{104DEEB2-9A0E-365F-A6B6-8348C52529C1}</Project>
+      <Name>absl_flags_usage_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\synchronization\absl_graphcycles_internal.vcxproj">
+      <Project>{4FD339BB-4278-37A6-BCED-125CED0F854B}</Project>
+      <Name>absl_graphcycles_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\hash\absl_hash.vcxproj">
+      <Project>{98EE20D5-2371-363D-ABE0-875FE2385A99}</Project>
+      <Name>absl_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\container\absl_hashtablez_sampler.vcxproj">
+      <Project>{0B9FE3EB-2230-3D50-B3EE-42DB8889A554}</Project>
+      <Name>absl_hashtablez_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\numeric\absl_int128.vcxproj">
+      <Project>{030036A9-E5A1-326F-8D3A-2F124CDE0E4C}</Project>
+      <Name>absl_int128</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\debugging\absl_leak_check.vcxproj">
+      <Project>{70D99689-6897-3E3E-97D6-2CB39692A090}</Project>
+      <Name>absl_leak_check</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\debugging\absl_leak_check_disable.vcxproj">
+      <Project>{220F487B-2E5C-3325-AEBB-841C14B71EAD}</Project>
+      <Name>absl_leak_check_disable</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_log_severity.vcxproj">
+      <Project>{227B1EF2-4598-3A9C-8ECD-8EAF8741F47D}</Project>
+      <Name>absl_log_severity</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_malloc_internal.vcxproj">
+      <Project>{21AFF2BC-C046-3AB7-8C32-B3B52E638783}</Project>
+      <Name>absl_malloc_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_periodic_sampler.vcxproj">
+      <Project>{2DC3C526-6C19-35FE-AA10-3BF89AB89D87}</Project>
+      <Name>absl_periodic_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_distributions.vcxproj">
+      <Project>{28B921FF-0139-350A-9683-CD05E518FB20}</Project>
+      <Name>absl_random_distributions</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_internal_distribution_test_util.vcxproj">
+      <Project>{7D625236-B065-3EB4-8310-91B43B4ED855}</Project>
+      <Name>absl_random_internal_distribution_test_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_internal_platform.vcxproj">
+      <Project>{2EF98D6B-F286-319D-B941-1476ED2E4CD8}</Project>
+      <Name>absl_random_internal_platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_internal_pool_urbg.vcxproj">
+      <Project>{39B8C8A5-5735-3198-A700-0F2158936BB4}</Project>
+      <Name>absl_random_internal_pool_urbg</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_internal_randen.vcxproj">
+      <Project>{160AF380-F318-3A53-9F91-D355409F476F}</Project>
+      <Name>absl_random_internal_randen</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_internal_randen_hwaes.vcxproj">
+      <Project>{6C444511-90EE-338F-BC71-96CFDAFE0C89}</Project>
+      <Name>absl_random_internal_randen_hwaes</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_internal_randen_hwaes_impl.vcxproj">
+      <Project>{0CD47E17-D048-3520-8442-09A65118BE32}</Project>
+      <Name>absl_random_internal_randen_hwaes_impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_internal_randen_slow.vcxproj">
+      <Project>{7AA9D24D-68F8-3E33-9843-181B4737B873}</Project>
+      <Name>absl_random_internal_randen_slow</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_internal_seed_material.vcxproj">
+      <Project>{6958AB54-F505-3508-A8F9-EB4BA5AF1B9C}</Project>
+      <Name>absl_random_internal_seed_material</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_seed_gen_exception.vcxproj">
+      <Project>{BF823E73-980D-314E-A105-CD855B7A973E}</Project>
+      <Name>absl_random_seed_gen_exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\random\absl_random_seed_sequences.vcxproj">
+      <Project>{C792B226-5287-39E0-8757-FB308A2B617B}</Project>
+      <Name>absl_random_seed_sequences</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\container\absl_raw_hash_set.vcxproj">
+      <Project>{1989C274-F2A2-31B7-8C86-8F5D3DD837B8}</Project>
+      <Name>absl_raw_hash_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_raw_logging_internal.vcxproj">
+      <Project>{7B3E1BF6-C63B-3CAA-A423-422D77223C35}</Project>
+      <Name>absl_raw_logging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_scoped_set_env.vcxproj">
+      <Project>{C2CD994A-AE59-3474-B7CA-4B6C2EB7A81F}</Project>
+      <Name>absl_scoped_set_env</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_spinlock_wait.vcxproj">
+      <Project>{43EEA046-8ECD-3769-88C2-82F2CDE07AF8}</Project>
+      <Name>absl_spinlock_wait</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\debugging\absl_stacktrace.vcxproj">
+      <Project>{58A8AFED-ED8F-3609-8C1E-31758CF24A36}</Project>
+      <Name>absl_stacktrace</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\status\absl_status.vcxproj">
+      <Project>{7F2A515F-4973-3D0C-A2E9-87D5CF31CA4F}</Project>
+      <Name>absl_status</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\status\absl_statusor.vcxproj">
+      <Project>{FEE11582-940E-3F97-AE06-17B23FB4BD59}</Project>
+      <Name>absl_statusor</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\strings\absl_str_format_internal.vcxproj">
+      <Project>{9701D77E-0380-3D21-B348-DF141FD32D57}</Project>
+      <Name>absl_str_format_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_strerror.vcxproj">
+      <Project>{8A6AA888-D4CB-306F-8E88-2B3629A4CBCE}</Project>
+      <Name>absl_strerror</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\strings\absl_strings.vcxproj">
+      <Project>{1AAD3753-5D4F-365C-A8E5-3601E8373FA3}</Project>
+      <Name>absl_strings</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\strings\absl_strings_internal.vcxproj">
+      <Project>{7B3ECE51-181E-30B5-921C-7DFE35EE9D6B}</Project>
+      <Name>absl_strings_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\debugging\absl_symbolize.vcxproj">
+      <Project>{A63EA84F-C4AC-3B52-B4E1-7E0D234314B7}</Project>
+      <Name>absl_symbolize</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\synchronization\absl_synchronization.vcxproj">
+      <Project>{B5DEC1B3-09A6-30A1-A5FD-FB36A9B1E92E}</Project>
+      <Name>absl_synchronization</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\base\absl_throw_delegate.vcxproj">
+      <Project>{6D2B48CE-7186-3C91-B148-7B2EB0EEB2DF}</Project>
+      <Name>absl_throw_delegate</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\time\absl_time.vcxproj">
+      <Project>{352B0F61-A1D9-3464-93F7-C298459F1670}</Project>
+      <Name>absl_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\time\absl_time_zone.vcxproj">
+      <Project>{2A322EC9-B2A5-3BD2-B80F-7B2A855893F5}</Project>
+      <Name>absl_time_zone</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\abseil-cpp\absl\hash\absl_wyhash.vcxproj">
+      <Project>{87703FBF-5BD9-3CB8-9B59-7B3EB409636D}</Project>
+      <Name>absl_wyhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\cares\cares\src\tools\acountry.vcxproj">
+      <Project>{F9773736-2C56-385F-A36F-C927E7008840}</Project>
+      <Name>acountry</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\address_sorting.vcxproj">
+      <Project>{71AF56AD-BAB2-30D4-BF69-8768688A58C8}</Project>
+      <Name>address_sorting</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\cares\cares\src\tools\adig.vcxproj">
+      <Project>{8BA23076-2B75-3A14-B901-7046486973C7}</Project>
+      <Name>adig</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\cares\cares\src\tools\ahost.vcxproj">
+      <Project>{2E532E84-5F29-3F8C-A5C3-B663895796CE}</Project>
+      <Name>ahost</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\cares\cares\src\lib\c-ares.vcxproj">
+      <Project>{022F8861-65FF-3CC7-B1FE-518D383623B8}</Project>
+      <Name>c-ares</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\charclass_test.vcxproj">
+      <Project>{B3A21AC4-061E-39B9-BCAF-085DA6C63B56}</Project>
+      <Name>charclass_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\check_epollexclusive.vcxproj">
+      <Project>{706B0CA2-CBF5-39A8-ADD2-AECBF4178DF7}</Project>
+      <Name>check_epollexclusive</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\compile_test.vcxproj">
+      <Project>{6900D0DA-F15A-3958-8BF8-FCE611F90E08}</Project>
+      <Name>compile_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\dfa_test.vcxproj">
+      <Project>{A9F0865B-BFF9-35A5-B1ED-20DCC500A9D3}</Project>
+      <Name>dfa_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\zlib\example.vcxproj">
+      <Project>{1A6274BB-A17F-39EB-8AEA-9191091E1A55}</Project>
+      <Name>example</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\exhaustive1_test.vcxproj">
+      <Project>{8DDE1E32-DB9C-3313-9CD9-EDA6E4B03604}</Project>
+      <Name>exhaustive1_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\exhaustive2_test.vcxproj">
+      <Project>{A476DEDB-2FF7-3BE8-A61E-B293CE253F5F}</Project>
+      <Name>exhaustive2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\exhaustive3_test.vcxproj">
+      <Project>{C37026E6-E917-3D38-8920-96C5141146D7}</Project>
+      <Name>exhaustive3_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\exhaustive_test.vcxproj">
+      <Project>{07FF9318-FBF4-39D1-A4BD-B65629B23049}</Project>
+      <Name>exhaustive_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\filtered_re2_test.vcxproj">
+      <Project>{15614881-95BE-35B1-A66C-96ED750A0029}</Project>
+      <Name>filtered_re2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\gen_hpack_tables.vcxproj">
+      <Project>{5FBE4D52-5BB1-3DD5-B826-3E48E8B709A3}</Project>
+      <Name>gen_hpack_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\gen_legal_metadata_characters.vcxproj">
+      <Project>{1A05944B-51B2-3024-A111-12F40BEE0938}</Project>
+      <Name>gen_legal_metadata_characters</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\gen_percent_encoding_tables.vcxproj">
+      <Project>{087D20C1-1DFA-35B6-A114-695237C386AC}</Project>
+      <Name>gen_percent_encoding_tables</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\gpr.vcxproj">
+      <Project>{DFB58DE3-87FD-3505-B596-8E55F0568C88}</Project>
+      <Name>gpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc.vcxproj">
+      <Project>{54E6B5DF-0A85-356F-98B2-355B932EF94B}</Project>
+      <Name>grpc</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc++.vcxproj">
+      <Project>{C2DABA41-D5B5-3043-9AE9-3770E4AE3827}</Project>
+      <Name>grpc++</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc++_alts.vcxproj">
+      <Project>{DB7629C5-CC36-3F88-B0C9-D835A48321EB}</Project>
+      <Name>grpc++_alts</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc++_error_details.vcxproj">
+      <Project>{F8BDA88B-2F24-39A3-9DC7-21C889FAFAD5}</Project>
+      <Name>grpc++_error_details</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc++_reflection.vcxproj">
+      <Project>{DBFD8192-0FFF-38D6-80F4-605D6D69943C}</Project>
+      <Name>grpc++_reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc++_unsecure.vcxproj">
+      <Project>{AD54DC40-3C52-3199-9C6A-987AD2AF3A65}</Project>
+      <Name>grpc++_unsecure</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_cpp_plugin.vcxproj">
+      <Project>{22DB01E5-BD49-3983-A110-F711F1D5024E}</Project>
+      <Name>grpc_cpp_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_csharp_ext.vcxproj">
+      <Project>{09C64AD3-886C-37F1-970A-FA34622F4A9C}</Project>
+      <Name>grpc_csharp_ext</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_csharp_plugin.vcxproj">
+      <Project>{9AE849EF-4417-3B4F-AC13-28DAB630FF6E}</Project>
+      <Name>grpc_csharp_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_node_plugin.vcxproj">
+      <Project>{1F0E6511-9587-3A6C-9029-9795E99D8225}</Project>
+      <Name>grpc_node_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_objective_c_plugin.vcxproj">
+      <Project>{76380CB4-A884-3372-9F11-298E4A2D6787}</Project>
+      <Name>grpc_objective_c_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_php_plugin.vcxproj">
+      <Project>{2DA21E1D-62CB-321E-92AD-7A446516ACD9}</Project>
+      <Name>grpc_php_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_plugin_support.vcxproj">
+      <Project>{1E3A642D-507E-3172-87AB-4957590FD7AA}</Project>
+      <Name>grpc_plugin_support</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_python_plugin.vcxproj">
+      <Project>{862F6753-61B6-3AF5-A08C-5F68B42C6B72}</Project>
+      <Name>grpc_python_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_ruby_plugin.vcxproj">
+      <Project>{F6D9C694-B3B8-3CFA-AE8B-3FE0D93E7E88}</Project>
+      <Name>grpc_ruby_plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpc_unsecure.vcxproj">
+      <Project>{4814858A-4EE4-39AC-8AC7-B9AC03EEABAE}</Project>
+      <Name>grpc_unsecure</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\grpcpp_channelz.vcxproj">
+      <Project>{86A7FD9A-29D7-3E0D-8B3E-D5AF98844EE3}</Project>
+      <Name>grpcpp_channelz</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\protobuf\libprotobuf.vcxproj">
+      <Project>{5E153A85-9001-3ED3-8132-020E2C9DAB32}</Project>
+      <Name>libprotobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\protobuf\libprotobuf-lite.vcxproj">
+      <Project>{55CC9473-F3D5-3B41-B321-2CFAFE33F2CD}</Project>
+      <Name>libprotobuf-lite</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\protobuf\libprotoc.vcxproj">
+      <Project>{1D375CC8-79D5-3183-AF5C-4182399CE5E6}</Project>
+      <Name>libprotoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\mimics_pcre_test.vcxproj">
+      <Project>{1BC2B0EF-FB9E-3DA4-8DE7-F8C83850D65E}</Project>
+      <Name>mimics_pcre_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\zlib\minigzip.vcxproj">
+      <Project>{A1CCF843-8ECA-3FA2-B661-28E4284E47FD}</Project>
+      <Name>minigzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\parse_test.vcxproj">
+      <Project>{E9D5463B-0B35-3DB1-B068-FAAB7320AF95}</Project>
+      <Name>parse_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\possible_match_test.vcxproj">
+      <Project>{A7E265C8-1FB1-3B4A-8E00-EF208FDDFA20}</Project>
+      <Name>possible_match_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\protobuf\protoc.vcxproj">
+      <Project>{A4AB54C1-7960-3CF1-8A84-8684852BFA4A}</Project>
+      <Name>protoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\random_test.vcxproj">
+      <Project>{F4F274A4-6CE2-30D0-846F-E9611B38BC6A}</Project>
+      <Name>random_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\re2.vcxproj">
+      <Project>{8C81348D-ED06-37AC-A3CB-87FA75B641E2}</Project>
+      <Name>re2</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\re2_arg_test.vcxproj">
+      <Project>{016AF476-9F3F-3CD5-A77D-03B25384D5EE}</Project>
+      <Name>re2_arg_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\re2_test.vcxproj">
+      <Project>{92C82755-743D-341B-B4AB-37B6C9987037}</Project>
+      <Name>re2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\regexp_benchmark.vcxproj">
+      <Project>{9285006D-C121-36FF-A67C-3B3EF4B87389}</Project>
+      <Name>regexp_benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\regexp_test.vcxproj">
+      <Project>{9EBD8B5F-7FDC-3145-B137-A0CAD057199F}</Project>
+      <Name>regexp_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\required_prefix_test.vcxproj">
+      <Project>{E306ADF6-FA0A-3E77-BA37-FBB9021CEA50}</Project>
+      <Name>required_prefix_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\search_test.vcxproj">
+      <Project>{C52B85B6-B64F-364A-A22B-DED7237AF0E1}</Project>
+      <Name>search_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\set_test.vcxproj">
+      <Project>{63235AF9-FACF-325D-B012-EDCB15C9AFD9}</Project>
+      <Name>set_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\simplify_test.vcxproj">
+      <Project>{A7196E90-C987-3F78-AB57-04B4C0869C87}</Project>
+      <Name>simplify_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\string_generator_test.vcxproj">
+      <Project>{A3C9FAB9-F64C-326C-915F-DC68F347F4D8}</Project>
+      <Name>string_generator_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\re2\testing.vcxproj">
+      <Project>{754F267F-48FB-30F2-AF85-7DE5FDB6F0E9}</Project>
+      <Name>testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\upb.vcxproj">
+      <Project>{A8F6D103-359A-3DE6-808B-05982CE6983C}</Project>
+      <Name>upb</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\zlib\zlib.vcxproj">
+      <Project>{EE46EE08-E112-3CDE-B1E3-B1529CBA35F9}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\GRPC\grpcSource\grpc\.build\third_party\zlib\zlibstatic.vcxproj">
+      <Project>{03D62E0E-2F6C-38AE-B277-9A855DAAB4D7}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

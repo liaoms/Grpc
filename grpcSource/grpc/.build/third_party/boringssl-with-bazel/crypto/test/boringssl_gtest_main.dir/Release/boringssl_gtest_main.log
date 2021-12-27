@@ -1,0 +1,3 @@
+﻿  Building Custom Rule F:/GRPC/grpcSource/grpc/third_party/boringssl-with-bazel/crypto/test/CMakeLists.txt
+  gtest_main.cc
+  boringssl_gtest_main.vcxproj -> F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\crypto\test\boringssl_gtest_main.dir\Release\boringssl_gtest_main.lib

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\.build\CMakeFiles\f7a37a18c67e02abf5db2a7d26e50490\run_tests.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\GRPC\grpcSource\grpc\third_party\boringssl-with-bazel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\GRPC\grpcSource\grpc\.build\third_party\boringssl-with-bazel\CMakeFiles\run_tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4CDEB228-71F8-3407-B7F4-3167D01318B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
